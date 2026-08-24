@@ -28,15 +28,5 @@ class Solution {
         }
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        int[] nums1 = {1, 3};
-        int[] nums2 = {2};
-        System.out.println(sol.findMedianSortedArrays(nums1, nums2)); // Output: 2.0
-
-        int[] nums3 = {1, 2};
-        int[] nums4 = {3, 4};
-        System.out.println(sol.findMedianSortedArrays(nums3, nums4)); // Output: 2.5
-    }
+    
 }
